@@ -1,0 +1,90 @@
+=>media player
+===============
+
+
+->landing
+    -header
+    -footer
+
+->dashboard
+    -header
+    -footer
+    -add video
+    -list video
+    -category
+
+->history
+
+1.landing page -intro
+2.add youtube video
+3. list add video
+4.play add videos
+5.delete  added videos
+6.add category
+7.list categors
+8.list catoegorys
+9.add video to category
+10.delite categorrys
+11.list watch history
+
+
+->project create
+
+->clean up
+
+->basic css
+
+->react-bootstrap install
+    npm i react-bootstrap bootstrap
+
+->set bootstarp theme
+    bootswatch.com[bootstrap.min.css]
+
+->pages & component
+->routing pages and componets
+
+react-router-DOM
+    npm i react-router-DOM
+
+
+=>Axios...
+-pakage with methode for XmlHttprequset
+-handels  data transfoation itsalf 
+-promis baseed clint side methd
+-to install 
+    npm i axios 
+
+-axios request starructure
+
+    ->bais get request
+    axios.get("url")
+    -oher requests
+
+    const req=axios.create({option})
+
+    {opttion}=>
+    {
+        base url:"localhostt3000",
+        url:"/allbideos",
+        mmethode:"post",
+        heders:{"content-type":""application/json"/"text/plain"/"multipart/from-data"},
+        data:{caption:"caption",url:"videourl",image:"image-address-url"}
+
+    }
+
+
+    ->using axios() methode
+
+    axios({
+         url:"/allbideos",
+        mmethode:"post",
+        heders:{"content-type":""application/json"/"text/plain"/"multipart/from-data"},
+        data:{caption:"caption",url:"videourl",image:"image-address-url"}
+
+
+    })
+
+
+    =>Toastify
+    external package for style based alerts/flash message
+    -npm i react-Toastify
